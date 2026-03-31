@@ -2,7 +2,7 @@ import React from 'react'
 
 const CompletedTask = ({data}) => {
     return (
-         <div className='shrink-0 h-full w-87.5 bg-blue-400 p-5 rounded-xl '>
+         <div className='shrink-0 h-full basis-[350px] bg-blue-400 p-5 rounded-xl '>
             <div className='flex justify-between items-center'>
                 <h3 className='bg-red-600 text-sm '>{data.category}</h3>
                 <h4 className='text-sm'>{data.date}</h4>

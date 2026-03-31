@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.jsx'
 import AuthProvider from './context/AuthProvider.jsx'
 import { setLocalStorage } from './Utils/LocalStorage.jsx'
-setLocalStorage();
+
 createRoot(document.getElementById('root')).render(
  
     

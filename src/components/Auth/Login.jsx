@@ -13,7 +13,7 @@ const Login = ({handleLogin}) => {
         setPassword('');
     }
     return (
-        <div className='flex h-screen w-screen flex-col justify-center items-center'>
+        <div className='flex h-screen w-screen flex-col justify-center items-center '>
             <div className='border-2 border-emerald-600 p-20 rounded-xl'>
                 <form className='flex flex-col items-center justify-center'
                 onSubmit={(e)=>{
@@ -25,7 +25,7 @@ const Login = ({handleLogin}) => {
                     onChange={(e)=>{
                         setEmail(e.target.value)
                     }} 
-                    required className='border-2 rounded-full py-3 px-3 text-xl w-full outline-none text-white border-emerald-600' placeholder='Enter your email' type='email'
+                    required className='border-2 rounded-full py-3 px-3 text-xl w-full outline-none  border-emerald-600' placeholder='Enter your email' type='email'
                      />
 
 
@@ -34,7 +34,7 @@ const Login = ({handleLogin}) => {
                     onChange={(e)=>{
                         setPassword(e.target.value)
                     }}
-                     required className='border-2 rounded-full py-3 px-5 text-xl  w-full outline-none mt-3 text-white border-emerald-600' placeholder='Enter password' type='password'
+                     required className='border-2 rounded-full py-3 px-5 text-xl  w-full outline-none mt-3  border-emerald-600' placeholder='Enter password' type='password'
                      />
 
 

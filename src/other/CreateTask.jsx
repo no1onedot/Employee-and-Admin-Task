@@ -65,7 +65,7 @@ const submitHandler = (e) => {
   setCategory('');
 };
   return (
-     <div className='bg-[]'>
+     <div className='bg-[] text-white'>
                 <form className='flex items-center justify-between bg-[#1c1c1c] p-5 ' onSubmit={(e)=>{
                     submitHandler(e);
                 }}>
